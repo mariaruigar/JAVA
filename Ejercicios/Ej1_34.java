@@ -19,7 +19,9 @@ public class Ej1_34 {
 		
 		//El operador MODULO de JAVA es el simbolo %
 		int resto=num1%num2;
-		System.out.println("El cociente es: " + cocienteEntero + " y el resto es: " + cocienteReal);
+		System.out.println("El cociente es: " + cocienteEntero  + " y el resto es: " + resto);
+		System.out.println("EL cociente real es: " + cocienteReal);
+		
 		
 		
 		
