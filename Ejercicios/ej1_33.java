@@ -10,17 +10,13 @@ public class ej1_33 {
 		
 		//Definimos el numero entero con el escaner y al hacer las operaciones cuidado con los operandos!!!!!!
 		//SE PUEDEN DECLARAR VARIAS VARIABLES EN LÑA MISMA LINEA
-		int numeroEstandar = scanner.nextInt();
-		int numeroEstandar2 = scanner.nextInt();
 		
 		
 		//Pedir los numeros al usuario
 		System.out.print("Dame el primer numero: ");
-		numeroEstandar = scanner.nextInt();
+		int numeroEstandar = scanner.nextInt();
 		System.out.print("Dame el segundo número: ");
-		numeroEstandar2 = scanner.nextInt();
-		
-		
+		int numeroEstandar2 = scanner.nextInt();
 		
 		int suma= (numeroEstandar + numeroEstandar2);
 		int resta= numeroEstandar - numeroEstandar2;
