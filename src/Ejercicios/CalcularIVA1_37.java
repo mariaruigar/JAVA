@@ -20,8 +20,8 @@ public class CalcularIVA1_37 {
 		//Sumamos el precio total
 		double precioTotal= num1 + precioConIVA;
 		
-		System.out.println("El IVA es: " + precioConIVA);
-		System.out.println("El precio total es: " + precioTotal);
+		System.out.printf("El IVA es: %.2f%n", precioConIVA);
+		System.out.printf("El precio total es: %.2f%n", precioTotal);
 		
 		sc.close();
 		
