@@ -2,7 +2,7 @@ package Ejercicios;
 
 import java.util.Scanner;
 
-public class ej1_35 {
+public class AreaRectangulo1_35 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

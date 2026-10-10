@@ -2,7 +2,7 @@ package Ejercicios;
 
 import java.util.Scanner;
 
-public class ej1_36 {
+public class Circulo1_36 {
 
 	public static void main(String[] args) {
 	//Declaramos el escáner

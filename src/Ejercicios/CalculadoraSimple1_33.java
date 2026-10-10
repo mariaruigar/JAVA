@@ -2,7 +2,7 @@ package Ejercicios;
 
 import java.util.Scanner;
 
-public class ej1_33 {
+public class CalculadoraSimple1_33 {
 
 	public static void main(String[] args) {
 		//Escaner para leer el teclado IMPORTAR EL ESCANER!!! 
