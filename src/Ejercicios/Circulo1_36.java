@@ -19,8 +19,8 @@ public class Circulo1_36 {
 	 double longitud= 2*Math.PI*num1;
 	 
 	 //Damos los resultados
-	 System.out.println("El área del círculo es: " + area);
-	 System.out.println("La longitud del círculo es: " + longitud);
+	 System.out.printf("El área del círculo es: %.2f%n", area);
+	 System.out.printf("La longitud del círculo es: %.2f%n", longitud);
 	 
 	 sc.close();
 	 
