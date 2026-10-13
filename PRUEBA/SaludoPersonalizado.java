@@ -11,6 +11,8 @@ public class SaludoPersonalizado {
 		nombre=sc.nextLine();
 		System.out.print("Encantado de conocerte " + nombre);
 		
+		sc.close();
+		
 
 	}
 
