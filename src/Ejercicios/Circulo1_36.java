@@ -1,0 +1,33 @@
+package Ejercicios;
+
+import java.util.Scanner;
+
+public class Circulo1_36 {
+
+	public static void main(String[] args) {
+	//Declaramos el escáner
+	Scanner sc= new Scanner (System.in);
+	 //Declaramos las variables
+	 double num1;
+	 //Pedimos el radio de un círclo y queremos saber el área del circulo y la longitud de circunferencia.
+	 System.out.print("Dame el radio del círculo: ");
+	 num1=sc.nextDouble();
+	 
+	 //area del ciculo:
+	 double area= Math.PI*(num1*num1);
+	 //calculamso la longitud de la circunferencia
+	 double longitud= 2*Math.PI*num1;
+	 
+	 //Damos los resultados
+	 System.out.printf("El área del círculo es: %.2f%n", area);
+	 System.out.printf("La longitud del círculo es: %.2f%n", longitud);
+	 
+	 sc.close();
+	 
+	 
+	 
+	 
+
+	}
+
+}
