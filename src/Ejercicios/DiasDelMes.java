@@ -1,6 +1,6 @@
 package Ejercicios;
 
-public class Ej1_6 {
+public class DiasDelMes {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
