@@ -1,4 +1,4 @@
-package Ejercicios;
+package EjerciciosBucles;
 
 public class BucleDoWhile2 {
 

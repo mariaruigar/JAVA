@@ -59,10 +59,10 @@ public class PiedraPapelTijera2_60 {
 			 
 	//	 }else (usuario==PIEDRA,PAPEL,TIJERA && ordenador==PIEDRA,PAPEL,TIJERA)
 		
-		if (usuario==PIEDRA) && (ordenador==TIJERA) || (usuario==TIJERA) && (ordenandor==PAPEL) || (usuario==PAPEL) && (ordenador==PIEDRA){
-			
-		}
-
+		if ((usuario==PIEDRA) && (ordenador==TIJERA) || (usuario==TIJERA) && (ordenador==PAPEL) || (usuario==PAPEL) && (ordenador==PIEDRA)) {
+			System.out.println("Has ganado!");
+		}else if 
+		
 	}
 
 }
