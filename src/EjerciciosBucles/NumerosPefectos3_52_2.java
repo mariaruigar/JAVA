@@ -27,5 +27,6 @@ public class NumerosPefectos3_52_2 {
 			System.out.println("Divisor encontrado" + numero + "\n");
 			
 		}
+		sc.close();
 }
 }
