@@ -12,20 +12,21 @@ public class TrrianguloRectanguloAlReves3_63 {
 		
 		
 		//Hacemos doble bucle for con un acumulador
-		for(int columna=1; columna<=n; columna++) {
+		for(int i=1; i<=n; i++) {
 			
-			for (int fila=1; fila<=columna; fila++) {
+			for (int j=1; j<=n-i; j++) {
 				 
-				System.out.print("* ");
+				System.out.print(" ");
 		
 		}
-			System.out.println(" ");
+			for (int k=1; k<=i; k++) {
+			System.out.print("*");
 		
 		}
-		System.out.println("");
+		System.out.println();
 }
 
 
 	}
-
+}
 
