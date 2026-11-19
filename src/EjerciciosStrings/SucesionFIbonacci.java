@@ -9,14 +9,15 @@ public class SucesionFIbonacci {
 		Scanner sc= new Scanner (System.in);
 		System.out.println("¿Qué término de la sucxesión de Fibonacci necesitas)");
 		long termino=sc.nextInt();
-		
 		long ultimo= 1;
 		long penultimo = 0;
-		System.out.println(penultimo + "," + ultimo + ",");
+		
+		long siguiente;
+		System.out.print(penultimo + "," + ultimo + ",");
 		//Calcular los términos que me pidan
 		//LOs dos primeros ya los tenemos, siempre son los mismos
 		for(int i=3; i<=termino; i++) {
-			long siguiente=ultimo+penultimo;
+			siguiente=ultimo+penultimo;
 			System.out.print(siguiente + ", ");
 			penultimo=ultimo;
 			ultimo=siguiente;
@@ -25,5 +26,7 @@ public class SucesionFIbonacci {
 		}
 
 	}
-
+public static void imprimirSucesionFibonacci (int t) {
+		
+}
 }
