@@ -12,6 +12,7 @@ public class MediaTresNotas1_40 {
 		double nota2=sc.nextDouble();
 		System.out.println("Dime la tercera nota: ");
 		double nota3=sc.nextDouble();
+		//Siempre entre parentesisque si no solo divide la ultima nota que pongamos.
 		double notatotal= (nota1+nota2+nota3)/3;
 		System.out.printf("La media de tu nota es: %.1f%n", notatotal);
 				
