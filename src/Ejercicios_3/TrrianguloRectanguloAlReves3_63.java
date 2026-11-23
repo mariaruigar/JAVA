@@ -18,8 +18,8 @@ public class TrrianguloRectanguloAlReves3_63 {
 				 
 				System.out.print(" ");
 		
-		}
-			for (int k=1; k<=i; k++) {
+		}//Para triangulo invertido k<=1 y para la pirámide k<=i+(i-1)
+			for (int k=1; k<=i+(i-1); k++) {
 			System.out.print("*");
 		
 		}
